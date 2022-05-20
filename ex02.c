@@ -25,23 +25,22 @@ int main(){
     if(metodo[i]==1) {
             printf("\n\nDigite o valor pago pelo %dº cliente: R$ ", i+1);
             scanf("%f", &cheque[i]);
-            somacheque=somacheque+cheque[i];
+            somacheque+=cheque[i];
         } 
         
     //cc
     if(metodo[i]==2) {
             printf("\n\nDigite o valor pago pelo %dº cliente: R$ ", i+1);
             scanf("%f", &cc[i]);
-            somacc=somacc+cc[i];
+            somacc+=cc[i];
         } 
     
     //dinheiro
     if(metodo[i]==3) {
             printf("\n\nDigite o valor pago pelo %dº cliente: R$ ", i+1);
             scanf("%f", &dinheiro[i]);
-            somadin=somadin+dinheiro[i];
-        } 
-    }
+            somadin+=dinheiro[i];
+        } }
     
     //soma total   
     somatotal = somacheque+somacc+somadin;
