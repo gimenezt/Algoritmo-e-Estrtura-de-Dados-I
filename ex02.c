@@ -3,7 +3,7 @@
 int main(){
     setlocale (LC_ALL, "Portuguese");
     
-    int cx=150, i, metodo[150], ccheque=0, ccc=0, cdinheiro=0;
+    int i, metodo[150], ccheque=0, ccc=0, cdinheiro=0;
     float somacheque, somacc, somadin, somatotal;
     
     printf("ADMINISTRAÇÃO DE PAGAMENTOS - DANCETERIA\n\n");
